@@ -1,0 +1,15 @@
+<plugin id="org.dita-community.keyspace-builder" version="0.1.0">
+  <!-- 
+      Provides a keyspace constructor to replace the org.dita.base keyspace
+      constructor.
+      -->
+  <require plugin="org.dita.base"/>
+  
+  <feature extension="package.support.name" value="Eliot Kimber"/>
+  <feature extension="package.support.email" value="eliot.kimber@servicenow.com"/>
+  
+
+  <!-- FIXME: Add necessary extension point or runtime parameters here -->
+  
+    
+</plugin>
