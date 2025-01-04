@@ -1,21 +1,18 @@
 package org.ditacommunity.dost.reader;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
-import java.io.File;
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.util.Map;
 
 import javax.xml.transform.stream.StreamSource;
 
 import org.dita.dost.log.DITAOTLogger;
-import org.dita.dost.util.Job;
-import org.dita.dost.util.Job.FileInfo;
-import org.dita.dost.util.KeyScope;
 import org.dita.dost.util.XMLUtils;
+import org.ditacommunity.dost.util.KeyDef;
+import org.ditacommunity.dost.util.KeyScope;
 import org.junit.Test;
 import org.slf4j.Marker;
 
@@ -39,7 +36,9 @@ public class TestKeyrefReader {
 		reader.read(mapUri, mapNode);
 		KeyScope rootScope = reader.getKeyDefinition();
 		assertNotNull("Expected a root key scope", rootScope);
- 		
+		Map<String, KeyDef> keydefs = rootScope.getKeyDefinitions();
+		assertNotNull("Expected a key definitions map", keydefs);
+		assertTrue("Expected at least one key definition", keydefs.keySet().size() > 0);
 
 	}
 

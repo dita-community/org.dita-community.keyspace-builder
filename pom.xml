@@ -15,8 +15,11 @@
   <description>Key space builder for DITA Open Toolkit.</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <!--
+    <maven.compiler.source>16</maven.compiler.source>
+    <maven.compiler.target>16</maven.compiler.target>
+    -->
+	<maven.compiler.release>16</maven.compiler.release>    
   </properties>
 
   <licenses>
@@ -51,6 +54,7 @@
     <url>https://github.com/dita-community/org.dita-community.keyspace-builder.git</url>
   </scm>
   <dependencies>
+  
 	<!-- https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE -->
 	<dependency>
 	    <groupId>net.sf.saxon</groupId>
@@ -63,7 +67,14 @@
 	    <groupId>org.dita-ot</groupId>
 	    <artifactId>dost</artifactId>
 	    <version>4.2.4</version>
-	</dependency>
+		 <exclusions>
+		 <!-- Exclude XML APIs library as these classes are now in Java 16+ (at least). -->
+		      <exclusion>
+				<groupId>xml-apis</groupId>
+				<artifactId>xml-apis</artifactId>
+    		  </exclusion>
+		    </exclusions>
+    	</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
