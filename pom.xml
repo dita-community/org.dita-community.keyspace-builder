@@ -51,6 +51,12 @@
     <url>https://github.com/dita-community/org.dita-community.keyspace-builder.git</url>
   </scm>
   <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.dita-ot/dost -->
+	<dependency>
+	    <groupId>org.dita-ot</groupId>
+	    <artifactId>dost</artifactId>
+	    <version>4.2.4</version>
+	</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
