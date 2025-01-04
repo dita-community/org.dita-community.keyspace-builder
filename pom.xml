@@ -51,6 +51,13 @@
     <url>https://github.com/dita-community/org.dita-community.keyspace-builder.git</url>
   </scm>
   <dependencies>
+	<!-- https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE -->
+	<dependency>
+	    <groupId>net.sf.saxon</groupId>
+	    <artifactId>Saxon-HE</artifactId>
+	    <version>12.5</version>
+	</dependency>
+  
 	<!-- https://mvnrepository.com/artifact/org.dita-ot/dost -->
 	<dependency>
 	    <groupId>org.dita-ot</groupId>

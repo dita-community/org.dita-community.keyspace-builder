@@ -13,7 +13,6 @@ import static org.dita.dost.util.KeyScope.ROOT_ID;
 import static org.dita.dost.util.URLUtils.toURI;
 import static org.dita.dost.util.XMLUtils.rootElement;
 
-import com.google.common.annotations.VisibleForTesting;
 import java.io.File;
 import java.net.URI;
 import java.util.*;

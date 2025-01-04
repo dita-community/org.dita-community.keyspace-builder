@@ -1,4 +1,0 @@
-/**
- * 
- */
-package org.ditacommunity.keyspacebuilder;
