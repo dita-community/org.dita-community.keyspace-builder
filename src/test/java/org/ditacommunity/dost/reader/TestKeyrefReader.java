@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import javax.xml.transform.stream.StreamSource;
 
@@ -58,6 +59,11 @@ public class TestKeyrefReader {
 		int expectedCount = 5; // Keys in the root scope
 		assertTrue("Expected " + expectedCount + ", got " + keydefs.size(), expectedCount == keydefs.size());
 		
+		Set<String> scopeNames = rootScope.getScopeNames();
+		assertNotNull("Expected a set of scope names", scopeNames);
+		assertTrue("Expected 2 scope names for root scope, got " + scopeNames.size(), scopeNames.size() == 2);
+		assertTrue("Expected #ROOT in scope names", scopeNames.contains(KeyrefReader.ROOT_SCOPE_DEFAULT_NAME));
+		assertTrue("Expected \"" + expectedScopeName + "\" in scope names", scopeNames.contains(expectedScopeName));
 		
 		String keyName = "solutions-gallery";
 		
@@ -82,6 +88,8 @@ public class TestKeyrefReader {
 		expectedScopeName = "image";
 		List<KeyScope> imageScopes = rootScope.getScopesByName(expectedScopeName);
 		assertNotNull("Expected a list for scope name \"" + expectedScopeName + "\"", imageScopes);
+		expectedCount = 2;
+		assertTrue("Expected " + expectedCount + " scopes for scope name \"" + expectedScopeName + "\", got " + imageScopes.size(), imageScopes.size() == expectedCount);
 
 	}
 

@@ -196,10 +196,11 @@ public final class KeyrefReader implements AbstractReader {
 	 * Construct a new key scope and add key definitions to it.
 	 * @param elem Scope-defining element.
 	 */
-	private void readKeyScope(XdmNode elem) {
+	private void readKeyScope(KeyScope parentScope, XdmNode elem) {
 		KeyScope scope = new KeyScope(elem);
-		keyscopesByDefiner.put(elem, rootScope);
+		keyscopesByDefiner.put(elem, scope);
 		readKeyScope(scope);		
+		parentScope.addChildScope(scope);
 	}
 
 	/**
@@ -212,7 +213,7 @@ public final class KeyrefReader implements AbstractReader {
 		if (elem.attribute(ATTRIBUTE_NAME_KEYSCOPE) != null) {
 			// This will also handle adding a key definition for the scope-definer
 			// if it is also a key-defining element.
-			readKeyScope(elem);
+			readKeyScope(scope, elem);
 		} else if (MAP_TOPICREF.matches(classValue) && elem.attribute(ATTRIBUTE_NAME_KEYS) != null) {
 			readKeyDefinition(scope, elem);
 			processChildren(scope, elem);

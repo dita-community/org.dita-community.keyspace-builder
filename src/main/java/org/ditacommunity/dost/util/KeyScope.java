@@ -66,7 +66,10 @@ public class KeyScope {
 	private List<XdmNode> keyDefiners = new ArrayList<XdmNode>();
 	private Map<String, KeyDef> keyDefinitions = new HashMap<String, KeyDef>();
 	private Set<String> scopeNames = new HashSet<String>();
-	private Map<String, List<KeyScope>> scopesByName = new HashMap<>();  
+	private Map<String, List<KeyScope>> scopesByName = new HashMap<>();
+	private List<KeyScope> childScopes = new ArrayList<KeyScope>();
+	// NOTE: The root scope does not have a parent.
+	private KeyScope parentScope = null;
 
 	/**
 	 * Construct a key scope ready to have key definitions added to it.
@@ -94,6 +97,14 @@ public class KeyScope {
 			scopes.add(this);
 		}
 
+	}
+
+	/**
+	 * Get the parent scope, if any. The root scope does not have a parent.
+	 * @return Parent scope, or null if this is the root scope.
+	 */
+	public KeyScope getParent() {
+		return this.parentScope;
 	}
 
 	/**
@@ -161,6 +172,51 @@ public class KeyScope {
 			result = Collections.unmodifiableList(scopes);
 		}
 		return result;
+	}
+
+	/**
+	 * Gets the set of scope names for the scope. A scope must have at least one scope name.
+	 * @return Set of at least one scope name.
+	 */
+	public Set<String> getScopeNames() {
+		Set<String> result = new HashSet<String>(this.scopeNames);
+		return result;
+	}
+
+	/**
+	 * Add a key scope as a child scope
+	 * @param scope Child scope to add
+	 */
+	public void addChildScope(KeyScope scope) {
+		this.childScopes.add(scope);
+		scope.setParent(this);
+		for (String scopeName : scope.getScopeNames()) {
+			List<KeyScope> scopes = this.scopesByName.get(scopeName);
+			if (scopes == null) {				
+				scopes = new ArrayList<KeyScope>();
+				this.scopesByName.put(scopeName, scopes);
+			}
+			scopes.add(scope);
+		}
+		
+	}
+
+	private void setParent(KeyScope keyScope) {
+		this.parentScope = keyScope;		
+	}
+	
+	@Override
+	public String toString() {
+		int hash = this.getScopeDefiner().hashCode();
+		StringBuffer buf = new StringBuffer("KeyScope ");
+		buf.append("(Definer <")
+		.append(this.getScopeDefiner().getNodeName())
+		.append(">")
+		.append(" @").append(hash).append(") ");
+		for (String scopeName : this.getScopeNames()) {
+			buf.append("[").append(scopeName).append("]");
+		}
+		return buf.toString();
 	}
 
 }
