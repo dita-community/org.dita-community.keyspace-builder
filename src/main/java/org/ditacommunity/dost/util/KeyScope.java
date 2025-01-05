@@ -1,11 +1,20 @@
 package org.ditacommunity.dost.util;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+
+import org.ditacommunity.dost.reader.KeyrefReader;
 
 import net.sf.saxon.s9api.XdmNode;
+import net.sf.saxon.s9api.XdmNodeKind;
+
+import static org.dita.dost.util.Constants.*;
 
 /**
  * Represents a constructed DITA key scope. A key scope consists of
@@ -55,12 +64,47 @@ public class KeyScope {
 
 
 	private List<XdmNode> keyDefiners = new ArrayList<XdmNode>();
-	private Map<String, KeyDef> keyDefinitions = new HashMap<String, KeyDef>();  
+	private Map<String, KeyDef> keyDefinitions = new HashMap<String, KeyDef>();
+	private Set<String> scopeNames = new HashSet<String>();
+	private Map<String, List<KeyScope>> scopesByName = new HashMap<>();  
 
-	public KeyScope(XdmNode keyDefiner, Map<XdmNode, KeyScope> keyScopesByDefiner) {
+	/**
+	 * Construct a key scope ready to have key definitions added to it.
+	 * @param scopeDefiner The scope-defining element: A map, topicref, or mapref (for peer scopes).
+	 */
+	public KeyScope(XdmNode scopeDefiner) {
 		// A key scope may have multiple key definers, but it must have at least one.
-		this.keyDefiners .add(keyDefiner);
-		keyScopesByDefiner.put(keyDefiner, this);		
+		this.keyDefiners .add(scopeDefiner);	
+		Set<String> scopeNames = new HashSet<String>();
+		String scopeValue = scopeDefiner.attribute(ATTRIBUTE_NAME_KEYSCOPE);
+		
+		// If the scope is defined by the root map element, set the default name:
+		XdmNode parent = scopeDefiner.getParent();
+		if (scopeDefiner.getParent().getNodeKind() == XdmNodeKind.DOCUMENT) {
+			scopeNames.add(KeyrefReader.ROOT_SCOPE_DEFAULT_NAME);
+		}
+		scopeNames.addAll(Arrays.asList(scopeValue.split("\\s+")));
+		for (final String scope : scopeNames) {
+			this.addScopeName(scope);
+			List<KeyScope> scopes = this.scopesByName.get(scope);
+			if (scopes == null) {
+				scopes = new ArrayList<KeyScope>();
+				this.scopesByName.put(scope, scopes);
+			}			
+			scopes.add(this);
+		}
+
+	}
+
+	/**
+	 * Add a scope name to the scope. A scope may have any number
+	 * of names. The names of a scope do not need to be unique across
+	 * the scopes defined by a root map.
+	 * @param name The scope name.
+	 */
+	public void addScopeName(String name) {
+		
+		this.scopeNames.add(name);		
 	}
 
 	/**
@@ -70,6 +114,53 @@ public class KeyScope {
 	public Map<String, KeyDef> getKeyDefinitions() {
 		final HashMap<String, KeyDef> newMap = new HashMap<String, KeyDef>(this.keyDefinitions);
 		return newMap;
+	}
+
+	/**
+	 * Gets the first (or only) scope-defining element for this key scope.
+	 * @return Scope-defining element.
+	 */
+	public XdmNode getScopeDefiner() {
+		return this.keyDefiners.get(0);
+	}
+
+	/**
+	 * Get the key definition with the specified key, if any
+	 * @param key The key of the key definition to get
+	 * @return The key definition for the key, or null.
+	 */
+	public KeyDef getKeyDefinition(String key) {
+		return this.keyDefinitions.get(key);
+	}
+
+	/**
+	 * Add a key definition to the scope. If there is already
+	 * a key definition then any key definers in the keydef are
+	 * appended to the key definers.
+	 * @param keyDef
+	 */
+	public void appendKeyDef(KeyDef keyDef) {
+		String keyName = keyDef.getKeyName();
+		if (this.keyDefinitions.containsKey(keyName)) {
+			KeyDef existing = this.getKeyDefinition(keyName);
+			existing.appendKeyDefiners(keyDef.getKeyDefiners());
+		} else {
+			this.keyDefinitions.put(keyName, keyDef);
+		}
+	}
+
+	/**
+	 * Get the child (or self) scopes with the specified scope name
+	 * @param scopeName The scope name to look for.
+	 * @return List, possibly empty, of scopes with the specified name.
+	 */
+	public List<KeyScope> getScopesByName(String scopeName) {
+		List<KeyScope> scopes = this.scopesByName.get(scopeName);
+		List<KeyScope> result = null;
+		if (scopes != null) {
+			result = Collections.unmodifiableList(scopes);
+		}
+		return result;
 	}
 
 }

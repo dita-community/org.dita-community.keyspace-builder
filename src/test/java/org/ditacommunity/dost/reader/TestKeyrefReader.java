@@ -5,6 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
 import java.net.URI;
+import java.util.List;
 import java.util.Map;
 
 import javax.xml.transform.stream.StreamSource;
@@ -27,6 +28,7 @@ public class TestKeyrefReader {
 	public void test() throws Exception {
 		
 	    URI mapUri = getClass().getClassLoader().getResource("org/ditacommunity/dost/resources/small-map/small-map.ditamap").toURI();
+	    // Get the document node for input map.
 	    XdmNode mapNode = getImmutableNode(mapUri);
 	
 	    KeyrefReader reader = new KeyrefReader();
@@ -35,10 +37,51 @@ public class TestKeyrefReader {
 		// Reader the input map to construct the key space:
 		reader.read(mapUri, mapNode);
 		KeyScope rootScope = reader.getKeyDefinition();
+		
 		assertNotNull("Expected a root key scope", rootScope);
+		
+		// Check that the scope is accessible by its scope names:
+		
+		String expectedScopeName = KeyrefReader.ROOT_SCOPE_DEFAULT_NAME;
+		List<KeyScope> candScopes = rootScope.getScopesByName(expectedScopeName);
+		assertNotNull("Expected a list", candScopes);
+		assertTrue("Expected one scope", candScopes.size() == 1);
+		
+		expectedScopeName = "small-map";
+		candScopes = rootScope.getScopesByName(expectedScopeName);
+		assertNotNull("Expected a list", candScopes);
+		assertTrue("Expected one scope for scope name \"" + expectedScopeName + "\"", candScopes.size() == 1);
+		
 		Map<String, KeyDef> keydefs = rootScope.getKeyDefinitions();
 		assertNotNull("Expected a key definitions map", keydefs);
 		assertTrue("Expected at least one key definition", keydefs.keySet().size() > 0);
+		int expectedCount = 5; // Keys in the root scope
+		assertTrue("Expected " + expectedCount + ", got " + keydefs.size(), expectedCount == keydefs.size());
+		
+		
+		String keyName = "solutions-gallery";
+		
+		KeyDef cand = rootScope.getKeyDefinition(keyName);
+		assertNotNull("Expected keydef for key \"" + keyName + "\"", cand);
+		URI href = cand.getHref();
+		assertNotNull("Expected href value", href);
+
+		// Verify that the key definer is a element that defines the key:
+		String expectedXtrc = "topicref:2;35:38";
+		XdmNode definer = cand.getEffectiveKeyDefiner();
+		assertNotNull("Expected key definer", definer);
+		String xtrcValue = definer.attribute("xtrc").trim();
+		String keysValue = definer.attribute("keys").trim();
+		// Verify we got the effective definer:
+		assertTrue("@xtrc value \"" + xtrcValue + "\" doesn't match expected \"" + expectedXtrc + "\"", expectedXtrc.equals(xtrcValue));
+		assertTrue("@keys value \"" + keysValue + "\" doesn't match expected \"" + keyName + "\"", keyName.equals(keysValue));
+		
+		
+		// Get scopes by scope name
+		
+		expectedScopeName = "image";
+		List<KeyScope> imageScopes = rootScope.getScopesByName(expectedScopeName);
+		assertNotNull("Expected a list for scope name \"" + expectedScopeName + "\"", imageScopes);
 
 	}
 
