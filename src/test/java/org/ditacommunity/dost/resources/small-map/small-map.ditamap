@@ -6,7 +6,7 @@
     keyscope="small-map" specializations="@props/deliveryTarget" xml:lang="en-US"
     xtrc="map:1;9:25">
     <title class="- topic/title " xtrc="title:1;10:34"
-        >Release 10 Small Map</title>
+        >Release10 Small Map</title>
     <topicmeta class="- map/topicmeta " xtrc="topicmeta:1;11:40">
 
 
@@ -74,7 +74,7 @@
                     <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                         <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                             dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;5:11"
-                            >DITAComm Keys Family-Specific</submap-title>
+                            >DITAComm Keys Release-Specific</submap-title>
                     </submap-topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
                         processing-role="resource-only" xtrc="topichead:1;10:47">
@@ -87,7 +87,7 @@
                             <topicmeta class="- map/topicmeta " xtrc="topicmeta:2;15:21">
                                 <keywords class="- topic/keywords " xtrc="keywords:1;16:23">
                                     <keyword class="- topic/keyword " xtrc="keyword:1;17:25"
-                                        >Release 10</keyword>
+                                        >Release10</keyword>
                                 </keywords>
                             </topicmeta>
                         </keydef>
@@ -96,36 +96,36 @@
                             <topicmeta class="- map/topicmeta " xtrc="topicmeta:3;23:21">
                                 <keywords class="- topic/keywords " xtrc="keywords:2;24:23">
                                     <keyword class="- topic/keyword " xtrc="keyword:2;25:25"
-                                        >Release 10</keyword>
+                                        >Release10</keyword>
                                 </keywords>
                             </topicmeta>
                         </keydef>
                     </topichead>
                 </submap>
-                <keydef class="+ map/topicref mapgroup-d/keydef " keys="utah"
+                <keydef class="+ map/topicref mapgroup-d/keydef " keys="release-7"
                     processing-role="resource-only" xtrc="keydef:16;132:29">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:18;133:24">
                         <keywords class="- topic/keywords " xtrc="keywords:16;134:27">
                             <keyword class="- topic/keyword " xtrc="keyword:16;135:30"
-                                >Release 7</keyword>
+                                >Release7</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
-                <keydef class="+ map/topicref mapgroup-d/keydef " keys="vancouver"
+                <keydef class="+ map/topicref mapgroup-d/keydef " keys="release-8"
                     processing-role="resource-only" xtrc="keydef:17;139:34">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:19;140:24">
                         <keywords class="- topic/keywords " xtrc="keywords:17;141:27">
                             <keyword class="- topic/keyword " xtrc="keyword:17;142:30"
-                                >Release 8</keyword>
+                                >Release8</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
-                <keydef class="+ map/topicref mapgroup-d/keydef " keys="washdc"
+                <keydef class="+ map/topicref mapgroup-d/keydef " keys="release-9"
                     processing-role="resource-only" xtrc="keydef:18;146:31">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:20;147:24">
                         <keywords class="- topic/keywords " xtrc="keywords:18;148:27">
                             <keyword class="- topic/keyword " xtrc="keyword:18;149:30"
-                                >Release 9</keyword>
+                                >Release9</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
@@ -134,16 +134,16 @@
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:21;154:24">
                         <keywords class="- topic/keywords " xtrc="keywords:19;155:27">
                             <keyword class="- topic/keyword " xtrc="keyword:19;156:30"
-                                >Release 9</keyword>
+                                >Release9</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
-                <keydef class="+ map/topicref mapgroup-d/keydef " keys="Release 10"
+                <keydef class="+ map/topicref mapgroup-d/keydef " keys="Release10"
                     processing-role="resource-only" xtrc="keydef:20;160:27">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:22;161:20">
                         <keywords class="- topic/keywords " xtrc="keywords:20;162:23">
                             <keyword class="- topic/keyword " xtrc="keyword:20;163:26"
-                                >Release 10</keyword>
+                                >Release10</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
@@ -211,7 +211,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                     keys="developer-site-reg-tm-link" processing-role="resource-only"
                     scope="external" xtrc="keydef:26;218:44"
-                    href="https://developer.DITA Community.com/">
+                    href="https://developer.DITACommunity.com/">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">DITA Community Developer Site</navtitle>
                         <?ditaot usertext?>
@@ -230,29 +230,29 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                     keys="express-docs-url" processing-role="resource-only" scope="external"
                     xtrc="keydef:27;228:44"
-                    href="https://express.DITA Community.com/support/documentation">
+                    href="https://express.DITACommunity.com/support/documentation">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "
-                            >https://express.DITA Community.com/support/documentation</navtitle>
+                            >https://express.DITACommunity.com/support/documentation</navtitle>
                         <?ditaot gentext?>
                         <linktext class="- map/linktext "
-                            >https://express.DITA Community.com/support/documentation</linktext>
+                            >https://express.DITACommunity.com/support/documentation</linktext>
                         <keywords class="- topic/keywords " xtrc="keywords:27;230:27">
                             <keyword class="- topic/keyword " xtrc="keyword:28;231:30"
-                                >https://express.DITA Community.com/support/documentation</keyword>
+                                >https://express.DITACommunity.com/support/documentation</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
                 <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                     keys="express-support-url" processing-role="resource-only" scope="external"
                     xtrc="keydef:28;236:44"
-                    href="https://express.DITA Community.com/support">
+                    href="https://express.DITACommunity.com/support">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "
-                            >https://express.DITA Community.com/support</navtitle>
+                            >https://express.DITACommunity.com/support</navtitle>
                         <?ditaot gentext?>
                         <linktext class="- map/linktext "
-                            >https://express.DITA Community.com/support</linktext>
+                            >https://express.DITACommunity.com/support</linktext>
                         <keywords class="- topic/keywords " xtrc="keywords:28;238:27">
                             <keyword class="- topic/keyword " xtrc="keyword:29;239:31"
                             />
@@ -299,16 +299,16 @@
                 </keydef>
                 <keydef class="+ map/topicref mapgroup-d/keydef " format="html" keys="support-link"
                     processing-role="resource-only" scope="external" xtrc="keydef:33;273:44"
-                    href="https://support.DITA Community.com/now?draw=case">
+                    href="https://support.DITACommunity.com/now?draw=case">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "
-                            >https://support.DITA Community.com/now?draw=case</navtitle>
+                            >https://support.DITACommunity.com/now?draw=case</navtitle>
                         <?ditaot gentext?>
                         <linktext class="- map/linktext "
-                            >https://support.DITA Community.com/now?draw=case</linktext>
+                            >https://support.DITACommunity.com/now?draw=case</linktext>
                         <keywords class="- topic/keywords " xtrc="keywords:33;275:27">
                             <keyword class="- topic/keyword " xtrc="keyword:34;276:30"
-                                >https://support.DITA Community.com/now?draw=case</keyword>
+                                >https://support.DITACommunity.com/now?draw=case</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
@@ -11023,16 +11023,16 @@
                 </keydef>
                 <keydef class="+ map/topicref mapgroup-d/keydef " format="do" keys="store-url"
                     processing-role="resource-only" scope="external" xtrc="keydef:1194;8479:30"
-                    href="https://store.DITA Community.com/sn_appstore_store.do#!/store/home">
+                    href="https://store.DITACommunity.com/sn_appstore_store.do#!/store/home">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "
-                            >https://store.DITA Community.com/sn_appstore_store.do#!/store/home</navtitle>
+                            >https://store.DITACommunity.com/sn_appstore_store.do#!/store/home</navtitle>
                         <?ditaot gentext?>
                         <linktext class="- map/linktext "
-                            >https://store.DITA Community.com/sn_appstore_store.do#!/store/home</linktext>
+                            >https://store.DITACommunity.com/sn_appstore_store.do#!/store/home</linktext>
                         <keywords class="- topic/keywords " xtrc="keywords:1194;8481:27">
                             <keyword class="- topic/keyword " xtrc="keyword:1232;8482:30"
-                                >https://store.DITA Community.com/sn_appstore_store.do#!/store/home</keyword>
+                                >https://store.DITACommunity.com/sn_appstore_store.do#!/store/home</keyword>
                         </keywords>
                     </topicmeta>
                 </keydef>
@@ -24499,17 +24499,17 @@
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-developer-DITA Community-com" processing-role="resource-only"
                         scope="external" xtrc="keydef:1;16:122"
-                        href="https://developer.DITA Community.com/">
+                        href="https://developer.DITACommunity.com/">
                         <topicmeta class="- map/topicmeta ">
-                            <navtitle class="- topic/navtitle ">developer.DITA Community.com</navtitle>
+                            <navtitle class="- topic/navtitle ">developer.DITACommunity.com</navtitle>
                             <?ditaot gentext?>
-                            <linktext class="- map/linktext ">developer.DITA Community.com</linktext>
+                            <linktext class="- map/linktext ">developer.DITACommunity.com</linktext>
                         </topicmeta>
                     </keydef>
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-known-errors" processing-role="resource-only" scope="external"
                         xtrc="keydef:2;19:132"
-                        href="https://support.DITA Community.com/kb?id=known_error_portal">
+                        href="https://support.DITACommunity.com/kb?id=known_error_portal">
                         <topicmeta class="- map/topicmeta ">
                             <navtitle class="- topic/navtitle ">Known Error Portal</navtitle>
                             <?ditaot gentext?>
@@ -24519,7 +24519,7 @@
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-nowlearning" processing-role="resource-only" scope="external"
                         xtrc="keydef:3;21:134"
-                        href="https://nowlearning.DITA Community.com/lxp/en/pages/DITA Community">
+                        href="https://nowlearning.DITACommunity.com/lxp/en/pages/DITA Community">
                         <topicmeta class="- map/topicmeta ">
                             <navtitle class="- topic/navtitle ">DITAComm Learning</navtitle>
                             <?ditaot gentext?>
@@ -24529,7 +24529,7 @@
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-nowcreate" processing-role="resource-only" scope="external"
                         xtrc="keydef:4;23:118"
-                        href="https://nowlearning.DITA Community.com/nowcreate">
+                        href="https://nowlearning.DITACommunity.com/nowcreate">
                         <topicmeta class="- map/topicmeta ">
                             <navtitle class="- topic/navtitle ">DITAComm Create</navtitle>
                             <?ditaot gentext?>
@@ -24539,7 +24539,7 @@
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-success-center" processing-role="resource-only" scope="external"
                         xtrc="keydef:5;25:119"
-                        href="https://www.DITA Community.com/success.html?">
+                        href="https://www.DITACommunity.com/success.html?">
                         <topicmeta class="- map/topicmeta ">
                             <navtitle class="- topic/navtitle ">Customer Success Center</navtitle>
                             <?ditaot gentext?>
@@ -24549,7 +24549,7 @@
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-community" processing-role="resource-only" scope="external"
                         xtrc="keydef:6;27:116"
-                        href="https://community.DITA Community.com/community">
+                        href="https://community.DITACommunity.com/community">
                         <topicmeta class="- map/topicmeta ">
                             <navtitle class="- topic/navtitle ">DITA Community Community</navtitle>
                             <?ditaot gentext?>
@@ -24559,11 +24559,11 @@
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                         keys="sn-docs-DITA Community-com" processing-role="resource-only"
                         scope="external" xtrc="keydef:7;29:111"
-                        href="https://docs.DITA Community.com">
+                        href="https://docs.DITACommunity.com">
                         <topicmeta class="- map/topicmeta ">
-                            <navtitle class="- topic/navtitle ">docs.DITA Community.com</navtitle>
+                            <navtitle class="- topic/navtitle ">docs.DITACommunity.com</navtitle>
                             <?ditaot gentext?>
-                            <linktext class="- map/linktext ">docs.DITA Community.com</linktext>
+                            <linktext class="- map/linktext ">docs.DITACommunity.com</linktext>
                         </topicmeta>
                     </keydef>
                     <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
@@ -24756,7 +24756,7 @@
                         <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                             keys="sn-store-release-notes" processing-role="resource-only"
                             scope="external" xtrc="keydef:1;43:131"
-                            href="https://docs.DITA Community.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html">
+                            href="https://docs.DITACommunity.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html">
                             <topicmeta class="- map/topicmeta ">
                                 <navtitle class="- topic/navtitle ">DITA Community Store release
                                     notes</navtitle>
@@ -24775,7 +24775,7 @@
                         <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                             keys="store-rn-plat-app-engine-aes" processing-role="resource-only"
                             scope="external" xtrc="keydef:2;58:137"
-                            href="https://docs.DITA Community.com/bundle/store-release-notes/page/release-notes/store/store-rn-plat-app-engine-aes.html">
+                            href="https://docs.DITACommunity.com/bundle/store-release-notes/page/release-notes/store/store-rn-plat-app-engine-aes.html">
                             <topicmeta class="- map/topicmeta ">
                                 <navtitle class="- topic/navtitle ">App Engine Studio release
                                     notes</navtitle>
@@ -24794,7 +24794,7 @@
                         <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                             keys="store-rn-itsm-ms-ad-password-reset"
                             processing-role="resource-only" scope="external" xtrc="keydef:3;73:138"
-                            href="https://docs.DITA Community.com/bundle/store-release-notes/page/release-notes/store/store-rn-itsm-ms-ad-password-reset">
+                            href="https://docs.DITACommunity.com/bundle/store-release-notes/page/release-notes/store/store-rn-itsm-ms-ad-password-reset">
                             <topicmeta class="- map/topicmeta ">
                                 <navtitle class="- topic/navtitle ">Microsoft AD Spoke for Password
                                     Reset release notes</navtitle>
@@ -24820,7 +24820,7 @@
                         <keydef class="+ map/topicref mapgroup-d/keydef " format="html"
                             keys="mobile-apps" processing-role="resource-only" scope="external"
                             xtrc="keydef:4;95:120"
-                            href="https://docs.DITA Community.com/bundle/store-release-notes/page/release-notes/store/mobile-apps.html">
+                            href="https://docs.DITACommunity.com/bundle/store-release-notes/page/release-notes/store/mobile-apps.html">
                             <topicmeta class="- map/topicmeta ">
                                 <navtitle class="- topic/navtitle ">Mobile app version history for
                                     iOS and Android</navtitle>
@@ -25044,13 +25044,13 @@
     </submap>
     <topicref class="- map/topicref " format="pdf" outptuclass_id="d390e26298"
         outputclass="preprocessed-pdf" scope="external" toc="no" xtrc="topicref:1;32:39"
-        href="https://downloads.docs.DITA Community.com/pdf/enus/DITA Community-Release 10-better-together-enus.pdf">
+        href="https://downloads.docs.DITACommunity.com/pdf/enus/DITA Community-Release10-better-together-enus.pdf">
         <topicmeta class="- map/topicmeta ">
             <navtitle class="- topic/navtitle "
-                >https://downloads.docs.DITA Community.com/pdf/enus/DITA Community-Release 10-better-together-enus.pdf</navtitle>
+                >https://downloads.docs.DITACommunity.com/pdf/enus/DITA Community-Release10-better-together-enus.pdf</navtitle>
             <?ditaot gentext?>
             <linktext class="- map/linktext "
-                >https://downloads.docs.DITA Community.com/pdf/enus/DITA Community-Release 10-better-together-enus.pdf</linktext>
+                >https://downloads.docs.DITACommunity.com/pdf/enus/DITA Community-Release10-better-together-enus.pdf</linktext>
             <data class="- topic/data " id="d390e26298" name="outputclass" value="preprocessed-pdf"
             />
         </topicmeta>
@@ -25216,7 +25216,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 Application Portfolio
+                    >release-9 Delivery Key Map: Release9 Application Portfolio
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="run-scheduled-job-update-tpm-data"
@@ -25225,7 +25225,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="run-scheduled-job-update-tpm-data" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=run-scheduled-job-update-tpm-data&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=run-scheduled-job-update-tpm-data&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Führen Sie eine regelmäßige Aufgabe aus,
                             um TPM-Lebenszyklusdaten zu generieren</navtitle>
@@ -25250,7 +25250,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="eaw-insights" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;77:39"
-                    href="https://docs.DITA Community.com/csh?topicname=eaw-insights&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=eaw-insights&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Einblicke in Ihr Portfolio
                             anzeigen</navtitle>
@@ -25274,7 +25274,7 @@
                     format="html" keys="eaw-rationalize-business-applications"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:11;135:39"
-                    href="https://docs.DITA Community.com/csh?topicname=eaw-rationalize-business-applications&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=eaw-rationalize-business-applications&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Rationalisierung von
                             Geschäftsanwendungen</navtitle>
@@ -25298,7 +25298,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="portfolio-list-view" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;192:39"
-                    href="https://docs.DITA Community.com/csh?topicname=portfolio-list-view&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=portfolio-list-view&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Listenansicht „Portfolio“.</navtitle>
                         <?ditaot gentext?>
@@ -25327,7 +25327,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 Environmental, Social, and
+                    >release-9 Delivery Key Map: Release9 Environmental, Social, and
                     Governance Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="configure-sustainable-it" class="+ map/topicref map-group/topicgroup "
@@ -25336,7 +25336,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="configure-sustainable-it" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=configure-sustainable-it&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
+                    href="https://docs.DITACommunity.com/csh?topicname=configure-sustainable-it&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Nachhaltige IT konfigurieren</navtitle>
                         <?ditaot gentext?>
@@ -25360,7 +25360,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="activate-the-sustainable-it-plugin" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;93:39"
-                    href="https://docs.DITA Community.com/csh?topicname=activate-the-sustainable-it-plugin&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
+                    href="https://docs.DITACommunity.com/csh?topicname=activate-the-sustainable-it-plugin&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Nachhaltige IT Plugin
                             aktivieren</navtitle>
@@ -25388,7 +25388,7 @@
                     format="html" keys="filter-sustainable-it-metric-definitions"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:11;166:39"
-                    href="https://docs.DITA Community.com/csh?topicname=filter-sustainable-it-metric-definitions&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
+                    href="https://docs.DITACommunity.com/csh?topicname=filter-sustainable-it-metric-definitions&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Filtern Sie Nachhaltige IT
                             Metrikdefinitionen</navtitle>
@@ -25416,7 +25416,7 @@
                     format="html" keys="create-a-new-entity-for-data-centers"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:16;234:39"
-                    href="https://docs.DITA Community.com/csh?topicname=create-a-new-entity-for-data-centers&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
+                    href="https://docs.DITACommunity.com/csh?topicname=create-a-new-entity-for-data-centers&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Erstellen Sie neue Entitäten für
                             Rechenzentren</navtitle>
@@ -25440,7 +25440,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="set-up-entities-for-sustainable-it" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;292:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-entities-for-sustainable-it&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
+                    href="https://docs.DITACommunity.com/csh?topicname=set-up-entities-for-sustainable-it&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Richten Sie Entitäten für Nachhaltige IT
                             Rechenzentren manuell ein</navtitle>
@@ -25475,7 +25475,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9: Governance, Risiko und
+                    >release-9 Delivery Key Map: Release9: Governance, Risiko und
                     Compliance</submap-title>
             </submap-topicmeta>
             <topicgroup base="specify-approvers-for-proj-risks"
@@ -25484,7 +25484,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="specify-approvers-for-proj-risks" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=specify-approvers-for-proj-risks&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
+                    href="https://docs.DITACommunity.com/csh?topicname=specify-approvers-for-proj-risks&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Konfigurieren Sie die Integration
                             Projekt-Portfoliomanagement und Advanced Risk .</navtitle>
@@ -25515,7 +25515,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="assessing-proj-risk-by-projmanager" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;98:39"
-                    href="https://docs.DITA Community.com/csh?topicname=assessing-proj-risk-by-projmanager&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
+                    href="https://docs.DITACommunity.com/csh?topicname=assessing-proj-risk-by-projmanager&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Bewerten Sie Projektrisiken mit der
                             erweiterten Risikobewertung</navtitle>
@@ -25540,7 +25540,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="Elevating-a-risk" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;155:39"
-                    href="https://docs.DITA Community.com/csh?topicname=Elevating-a-risk&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
+                    href="https://docs.DITACommunity.com/csh?topicname=Elevating-a-risk&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Erhöhen Sie ein Projektrisiko auf das
                             Unternehmensrisiko</navtitle>
@@ -25563,7 +25563,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="project-risk-dashboard" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;213:39"
-                    href="https://docs.DITA Community.com/csh?topicname=project-risk-dashboard&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
+                    href="https://docs.DITACommunity.com/csh?topicname=project-risk-dashboard&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "
                             >Dashboard„Projektrisikoübersicht“.</navtitle>
@@ -25587,7 +25587,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="tprm-configuring" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;270:39"
-                    href="https://docs.DITA Community.com/csh?topicname=tprm-configuring&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
+                    href="https://docs.DITACommunity.com/csh?topicname=tprm-configuring&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Risikomanagement von Drittparteien
                             konfigurieren</navtitle>
@@ -25613,7 +25613,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="tprm-ws-request-dd-for-engagement" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:26;343:39"
-                    href="https://docs.DITA Community.com/csh?topicname=tprm-ws-request-dd-for-engagement&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
+                    href="https://docs.DITACommunity.com/csh?topicname=tprm-ws-request-dd-for-engagement&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Due Diligence für eine
                             Drittpartei-Interaktion anfordern</navtitle>
@@ -25645,7 +25645,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 Strategic Portfolio
+                    >release-9 Delivery Key Map: Release9 Strategic Portfolio
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="add-risks-for-project" class="+ map/topicref map-group/topicgroup "
@@ -25654,7 +25654,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="add-risks-for-project" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=add-risks-for-project&amp;version=release-9&amp;pubname=release-9-it-business-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=add-risks-for-project&amp;version=release-9&amp;pubname=release-9-it-business-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Risiken für Projekte
                             hinzufügen</navtitle>
@@ -25684,7 +25684,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 IT Operations
+                    >release-9 Delivery Key Map: Release9 IT Operations
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="sow-setup-itom" class="+ map/topicref map-group/topicgroup "
@@ -25693,7 +25693,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="sow-setup-itom" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;82:39"
-                    href="https://docs.DITA Community.com/csh?topicname=sow-setup-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=sow-setup-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Einrichten von Service
                             Operations-Arbeitsbereich für ITOM </navtitle>
@@ -25723,7 +25723,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="install-sow-itom-apps" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;165:39"
-                    href="https://docs.DITA Community.com/csh?topicname=install-sow-itom-apps&amp;version=release-9&amp;pubname=release-9-it-operations-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=install-sow-itom-apps&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Installieren Sie Service
                             Operations-Arbeitsbereich für die Anwendungen ITOM .</navtitle>
@@ -25752,7 +25752,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="configure-alert-metrics-itom" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;243:39"
-                    href="https://docs.DITA Community.com/csh?topicname=configure-alert-metrics-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=configure-alert-metrics-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Warnungsmetriken
                             konfigurieren</navtitle>
@@ -25776,7 +25776,7 @@
                     format="html" keys="set-up-recommendation-framework-sow-itom"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:16;301:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-recommendation-framework-sow-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=set-up-recommendation-framework-sow-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Empfehlungs-Framework in Service
                             Operations-Arbeitsbereich für ITOM konfigurieren</navtitle>
@@ -25809,7 +25809,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="configure-inbox-sow-itom" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;394:39"
-                    href="https://docs.DITA Community.com/csh?topicname=configure-inbox-sow-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=configure-inbox-sow-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Posteingang in Service
                             Operations-Arbeitsbereich für ITOM konfigurieren</navtitle>
@@ -25846,7 +25846,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 IT Service
+                    >release-9 Delivery Key Map: Release9 IT Service
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="sow-setup" class="+ map/topicref map-group/topicgroup "
@@ -25855,7 +25855,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="sow-setup" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;19:39"
-                    href="https://docs.DITA Community.com/csh?topicname=sow-setup&amp;version=release-9&amp;pubname=release-9-it-service-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=sow-setup&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Service Operations-Arbeitsbereich für
                             ITSM einrichten</navtitle>
@@ -25881,7 +25881,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="install-sow" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;91:39"
-                    href="https://docs.DITA Community.com/csh?topicname=install-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=install-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Service Operations-Arbeitsbereich ITSM
                             Applications installieren</navtitle>
@@ -25907,7 +25907,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="set-up-investigate" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;163:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-investigate&amp;version=release-9&amp;pubname=release-9-it-service-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=set-up-investigate&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Untersuchungs-Frameworks in Service
                             Operations-Arbeitsbereich einrichten</navtitle>
@@ -25934,7 +25934,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="set-up-recommendation-framework-sow" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;231:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-recommendation-framework-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=set-up-recommendation-framework-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Empfehlungs-Framework in Service
                             Operations-Arbeitsbereich konfigurieren</navtitle>
@@ -25964,7 +25964,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="create-list-sow" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;313:39"
-                    href="https://docs.DITA Community.com/csh?topicname=create-list-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
+                    href="https://docs.DITACommunity.com/csh?topicname=create-list-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Gefilterte Liste in Service
                             Operations-Arbeitsbereich konfigurieren</navtitle>
@@ -25998,7 +25998,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 Platform Analytics</submap-title>
+                    >release-9 Delivery Key Map: Release9 Platform Analytics</submap-title>
             </submap-topicmeta>
             <topicgroup base="self-diagnostics" class="+ map/topicref map-group/topicgroup "
                 xtrc="topicgroup:1;11:85"
@@ -26006,7 +26006,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="self-diagnostics" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;19:39"
-                    href="https://docs.DITA Community.com/csh?topicname=self-diagnostics&amp;version=release-9&amp;pubname=release-9-now-intelligence">
+                    href="https://docs.DITACommunity.com/csh?topicname=self-diagnostics&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Performance Analytics –
                             Diagnose</navtitle>
@@ -26029,7 +26029,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="update-pa-scripts" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;76:39"
-                    href="https://docs.DITA Community.com/csh?topicname=update-pa-scripts&amp;version=release-9&amp;pubname=release-9-now-intelligence">
+                    href="https://docs.DITACommunity.com/csh?topicname=update-pa-scripts&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Performance Analytics -Skripts
                             aktualisieren</navtitle>
@@ -26055,7 +26055,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="review-breakdown-sources" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;149:39"
-                    href="https://docs.DITA Community.com/csh?topicname=review-breakdown-sources&amp;version=release-9&amp;pubname=release-9-now-intelligence">
+                    href="https://docs.DITACommunity.com/csh?topicname=review-breakdown-sources&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Aufgliederungsquellen
                             überprüfen</navtitle>
@@ -26078,7 +26078,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="historical-data-nowintel-solution" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;207:39"
-                    href="https://docs.DITA Community.com/csh?topicname=historical-data-nowintel-solution&amp;version=release-9&amp;pubname=release-9-now-intelligence">
+                    href="https://docs.DITACommunity.com/csh?topicname=historical-data-nowintel-solution&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Führen Sie eine Verlaufsdatenerfassung
                             für eine DITAComm Intelligence -Lösung aus</navtitle>
@@ -26106,7 +26106,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="schedule-job-nowintel-solution" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;275:39"
-                    href="https://docs.DITA Community.com/csh?topicname=schedule-job-nowintel-solution&amp;version=release-9&amp;pubname=release-9-now-intelligence">
+                    href="https://docs.DITACommunity.com/csh?topicname=schedule-job-nowintel-solution&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Planen Sie die Datenerfassung für eine
                             DITAComm Intelligence -Lösung</navtitle>
@@ -26142,7 +26142,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9 KI aktivieren</submap-title>
+                    >release-9 Delivery Key Map: Release9 KI aktivieren</submap-title>
             </submap-topicmeta>
             <topicgroup base="platform-now-assist-landing"
                 class="+ map/topicref map-group/topicgroup " xtrc="topicgroup:1;12:61"
@@ -26150,7 +26150,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="platform-now-assist-landing" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=platform-now-assist-landing&amp;version=release-9&amp;pubname=release-9-intelligent-experiences">
+                    href="https://docs.DITACommunity.com/csh?topicname=platform-now-assist-landing&amp;version=release-9&amp;pubname=release-9-intelligent-experiences">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> DITAComm Assist </navtitle>
                         <?ditaot gentext?>
@@ -26176,7 +26176,7 @@
                     format="html" keys="opt-out-of-data-sharing-for-now-assist"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:6;98:39"
-                    href="https://docs.DITA Community.com/csh?topicname=opt-out-of-data-sharing-for-now-assist&amp;version=release-9&amp;pubname=release-9-intelligent-experiences">
+                    href="https://docs.DITACommunity.com/csh?topicname=opt-out-of-data-sharing-for-now-assist&amp;version=release-9&amp;pubname=release-9-intelligent-experiences">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Deaktivieren Sie die Datenfreigabe für
                             DITAComm Assist </navtitle>
@@ -26213,7 +26213,7 @@
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    >release-9 Delivery Key Map: Release 9
+                    >release-9 Delivery Key Map: Release9
                     Source-to-Pay-Vorgänge</submap-title>
             </submap-topicmeta>
             <topicgroup base="install-supp-mgmt" class="+ map/topicref map-group/topicgroup "
@@ -26222,7 +26222,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="install-supp-mgmt" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;19:39"
-                    href="https://docs.DITA Community.com/csh?topicname=install-supp-mgmt&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
+                    href="https://docs.DITACommunity.com/csh?topicname=install-supp-mgmt&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Supplier Lifecycle Operations
                             installieren</navtitle>
@@ -26248,7 +26248,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="new-supplier" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;96:39"
-                    href="https://docs.DITA Community.com/csh?topicname=new-supplier&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
+                    href="https://docs.DITACommunity.com/csh?topicname=new-supplier&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Erstellen Sie einen Lieferanten im
                             Source-to-Pay-Arbeitsbereich </navtitle>
@@ -26276,7 +26276,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="use-playbooks-onboard-supp" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;174:39"
-                    href="https://docs.DITA Community.com/csh?topicname=use-playbooks-onboard-supp&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
+                    href="https://docs.DITACommunity.com/csh?topicname=use-playbooks-onboard-supp&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Verwenden des
                             Lieferanten-Onboarding-Playbooks für das Onboarding von
@@ -26302,7 +26302,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="complete-risk-assessments" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;232:39"
-                    href="https://docs.DITA Community.com/csh?topicname=complete-risk-assessments&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
+                    href="https://docs.DITACommunity.com/csh?topicname=complete-risk-assessments&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Schließen Sie eine Risikobewertung im ab
                             Lieferantenportal </navtitle>
