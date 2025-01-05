@@ -219,4 +219,13 @@ public class KeyScope {
 		return buf.toString();
 	}
 
+	/**
+	 * Get list of child scopes, if any.
+	 * @return List, possibly empty, of child scopes in priority (document) order.
+	 */
+	public List<KeyScope> getChildScopes() {
+		List<KeyScope> result = new ArrayList<KeyScope>(this.childScopes);
+ 		return result;
+	}
+
 }

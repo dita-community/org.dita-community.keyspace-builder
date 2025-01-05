@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?workdir /Users/eliot.kimber/temp/bundle-btss-better-together/zoomin_oxygen?><?workdir-uri file:/Users/eliot.kimber/temp/bundle-btss-better-together/zoomin_oxygen/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?>
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/eliot.kimber/temp/publication-btss-better-together/zoomin_oxygen?><?workdir-uri file:/Users/eliot.kimber/temp/publication-btss-better-together/zoomin_oxygen/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?>
 <map xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
     xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge"
     class="- map/map " ditaarch:DITAArchVersion="1.3"
@@ -26,12 +26,10 @@
         dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
         dita-ot:submap-id="now-keydefs-map" dita-ot:submap-specializations="@props/deliveryTarget"
         dita-ot:submap-xtrc="map:1;4:27"
-        dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/now-keys-common.ditamap"
         xtrc="mapref:1;22:55">
         <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
             <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                 dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;5:12"
-                dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/now-keys-common.ditamap"
                 >DITAComm Keys Common</submap-title>
         </submap-topicmeta>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
@@ -42,17 +40,14 @@
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
             dita-ot:submap-keyscope="var" dita-ot:submap-specializations="@props/deliveryTarget"
             dita-ot:submap-xtrc="map:1;3:21"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-common-variable-text.ditamap"
             keyscope="var" xtrc="mapref:1;8:21">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:9"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-common-variable-text.ditamap"
                     >DITAComm Variable Text Keys</submap-title>
             </submap-topicmeta>
             <submap-topicmeta-container class="+ topic/foreign ditaot-d/submap-topicmeta-container "
-                dita-ot:submap-class="- map/topicmeta " dita-ot:submap-xtrc="topicmeta:1;5:13"
-                dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-common-variable-text.ditamap">
+                dita-ot:submap-class="- map/topicmeta " dita-ot:submap-xtrc="topicmeta:1;5:13">
                 <shortdesc class="- map/shortdesc " xtrc="shortdesc:1;6:14"
                     >Defines keys for "variable" text strings used from Service DITAComm content. These
                     keys are intended to be used from &lt;ph&gt; or similar inline
@@ -74,13 +69,11 @@
                     dita-ot:submap-id="now-family-keydefs-map"
                     dita-ot:submap-specializations="@props/deliveryTarget"
                     dita-ot:submap-xtrc="map:1;4:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/now-keys-family.ditamap"
                     xtrc="mapref:1;26:55"
                     processing-role="resource-only">
                     <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                         <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                             dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;5:11"
-                            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/now-keys-family.ditamap"
                             >DITAComm Keys Family-Specific</submap-title>
                     </submap-topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
@@ -136,7 +129,7 @@
                         </keywords>
                     </topicmeta>
                 </keydef>
-                <keydef class="+ map/topicref mapgroup-d/keydef " keys="washingtondc"
+                <keydef class="+ map/topicref mapgroup-d/keydef " keys="release-9"
                     processing-role="resource-only" xtrc="keydef:19;153:37">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:21;154:24">
                         <keywords class="- topic/keywords " xtrc="keywords:19;155:27">
@@ -16864,12 +16857,10 @@
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;3:6"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-common-images.ditamap"
             keyscope="image" xtrc="mapref:2;9:81">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:12"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-common-images.ditamap"
                     >Common images key definitions</submap-title>
             </submap-topicmeta>
             <topichead class="+ map/topicref mapgroup-d/topichead " processing-role="resource-only"
@@ -16887,13 +16878,11 @@
                     dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
                     dita-ot:submap-specializations="@props/deliveryTarget"
                     dita-ot:submap-xtrc="map:1;3:6"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/brand-center-icons.ditamap"
                     xtrc="mapref:1;11:48"
                     processing-role="resource-only">
                     <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                         <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                             dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:12"
-                            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/brand-center-icons.ditamap"
                             >Brand Center Icons</submap-title>
                     </submap-topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
@@ -19403,13 +19392,11 @@
                     dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
                     dita-ot:submap-specializations="@props/deliveryTarget"
                     dita-ot:submap-xtrc="map:1;3:6"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/dcx-icons.ditamap"
                     xtrc="mapref:2;13:39"
                     processing-role="resource-only">
                     <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                         <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                             dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:12"
-                            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/dcx-icons.ditamap"
                             >DCX Icons</submap-title>
                     </submap-topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
@@ -19676,13 +19663,11 @@
                     dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
                     dita-ot:submap-specializations="@props/deliveryTarget"
                     dita-ot:submap-xtrc="map:1;3:6"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/product-icons.ditamap"
                     xtrc="mapref:3;15:43"
                     processing-role="resource-only">
                     <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                         <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                             dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:12"
-                            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/product-icons.ditamap"
                             >Product icons</submap-title>
                     </submap-topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
@@ -22942,13 +22927,11 @@
                     dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
                     dita-ot:submap-specializations="@props/deliveryTarget"
                     dita-ot:submap-xtrc="map:1;3:6"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/data-vis-icons.ditamap"
                     xtrc="mapref:4;17:44"
                     processing-role="resource-only">
                     <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                         <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                             dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:12"
-                            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/data-vis-icons.ditamap"
                             >Data vis icons</submap-title>
                     </submap-topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
@@ -24495,12 +24478,10 @@
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;3:6"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-external-sites.ditamap"
             keyscope="external" xtrc="mapref:3;10:85">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:10"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-external-sites.ditamap"
                     >Keys for external web sites</submap-title>
             </submap-topicmeta>
             <topichead class="+ map/topicref mapgroup-d/topichead " processing-role="resource-only"
@@ -24620,17 +24601,14 @@
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
             dita-ot:submap-keyscope="reuse" dita-ot:submap-specializations="@props/deliveryTarget"
             dita-ot:submap-xtrc="map:1;3:23"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-template-reuse.ditamap"
             keyscope="reuse" xtrc="mapref:4;11:82">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;4:9"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-template-reuse.ditamap"
                     >DITAComm Template Reuse Topics</submap-title>
             </submap-topicmeta>
             <submap-topicmeta-container class="+ topic/foreign ditaot-d/submap-topicmeta-container "
-                dita-ot:submap-class="- map/topicmeta " dita-ot:submap-xtrc="topicmeta:1;5:13"
-                dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-template-reuse.ditamap">
+                dita-ot:submap-class="- map/topicmeta " dita-ot:submap-xtrc="topicmeta:1;5:13">
                 <shortdesc class="- map/shortdesc " xtrc="shortdesc:1;6:14"
                     >Defines keys for reuse target topics that are themselves used from template
                     topics.</shortdesc>
@@ -24751,12 +24729,10 @@
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;4:6"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-release-notes.ditamap"
             xtrc="mapref:5;12:64">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;5:11"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-release-notes.ditamap"
                     >Keys for global release notes</submap-title>
             </submap-topicmeta>
             <topichead class="+ map/topicref mapgroup-d/topichead " processing-role="resource-only"
@@ -24765,11 +24741,11 @@
                     <navtitle class="- topic/navtitle " xtrc="navtitle:1;26:20"
                         >Keys for global release notes bundle targets.</navtitle>
                 </topicmeta>
-                <topichead class="+ map/topicref mapgroup-d/topichead " keyscope="bundle-rnst"
+                <topichead class="+ map/topicref mapgroup-d/topichead " keyscope="publication-rnst"
                     processing-role="resource-only" xtrc="topichead:2;30:33">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:2;31:21">
                         <navtitle class="- topic/navtitle " xtrc="navtitle:2;32:23"
-                            >bundle-rnst</navtitle>
+                            >publication-rnst</navtitle>
                     </topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
                         processing-role="resource-only" xtrc="topichead:3;35:45">
@@ -24829,11 +24805,11 @@
                         </keydef>
                     </topichead>
                 </topichead>
-                <topichead class="+ map/topicref mapgroup-d/topichead " keyscope="bundle-rnst"
+                <topichead class="+ map/topicref mapgroup-d/topichead " keyscope="publication-rnst"
                     processing-role="resource-only" xtrc="topichead:6;82:33">
                     <topicmeta class="- map/topicmeta " xtrc="topicmeta:9;83:21">
                         <navtitle class="- topic/navtitle " xtrc="navtitle:9;84:23"
-                            >bundle-rnmo</navtitle>
+                            >publication-rnmo</navtitle>
                     </topicmeta>
                     <topichead class="+ map/topicref mapgroup-d/topichead "
                         processing-role="resource-only" xtrc="topichead:7;87:45">
@@ -24864,17 +24840,14 @@
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;4:6"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-legal.ditamap"
             keyscope="reuse" xtrc="mapref:6;13:73">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;5:12"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-legal.ditamap"
                     >Keys for legal disclaimers</submap-title>
             </submap-topicmeta>
             <submap-topicmeta-container class="+ topic/foreign ditaot-d/submap-topicmeta-container "
-                dita-ot:submap-class="- map/topicmeta " dita-ot:submap-xtrc="topicmeta:1;6:16"
-                dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/common/keys/now-keys-legal.ditamap">
+                dita-ot:submap-class="- map/topicmeta " dita-ot:submap-xtrc="topicmeta:1;6:16">
                 <shortdesc class="- map/shortdesc " xtrc="shortdesc:1;7:20"
                     >Defines keys for reuse target topics for legal disclaimers. The map is intended
                     to facilitate legal review of disclaimer content and enable reuse of approved
@@ -24909,12 +24882,10 @@
         dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
         dita-ot:submap-keyscope="image" dita-ot:submap-processing-role="resource-only"
         dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;6:37"
-        dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/_image-keydefs-btss.ditamap"
         keyscope="image" xtrc="mapref:2;26:55">
         <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
             <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                 dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;7:12"
-                dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/_image-keydefs-btss.ditamap"
                 >Image keydefs for bundle btss</submap-title>
         </submap-topicmeta>
         <topichead class="+ map/topicref mapgroup-d/topichead " processing-role="resource-only"
@@ -25190,12 +25161,10 @@
         dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
         dita-ot:submap-keyscope="reuse" dita-ot:submap-processing-role="resource-only"
         dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;4:55"
-        dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/_reuse-keydefs-btss.ditamap"
         keyscope="reuse" xtrc="mapref:3;59:55">
         <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
             <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                 dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;5:11"
-                dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/_reuse-keydefs-btss.ditamap"
                 >Reuse topic keydefs for bundle btss</submap-title>
         </submap-topicmeta>
         <topichead class="+ map/topicref mapgroup-d/topichead " processing-role="resource-only"
@@ -25228,7 +25197,7 @@
             </topicmeta>
         </topichead>
     </submap>
-    <topichead class="+ map/topicref mapgroup-d/topichead " id="peer-bundle-maprefs"
+    <topichead class="+ map/topicref mapgroup-d/topichead " id="peer-publication-maprefs"
         processing-role="resource-only" xtrc="topichead:1;62:60">
         <topicmeta class="- map/topicmeta " xtrc="topicmeta:2;63:43">
             <navtitle class="- topic/navtitle " xtrc="navtitle:1;64:46"
@@ -25236,20 +25205,18 @@
         </topicmeta>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-appportman-application-portfolio-management.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-appportman-application-portfolio-management.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-appportman" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-appportman" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-appportman-application-portfolio-management.ditamap"
-            keyscope="bundle-appportman" xtrc="mapref:4;69:58"
+            keyscope="publication-appportman" xtrc="mapref:4;69:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-appportman-application-portfolio-management.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 Application Portfolio
+                    >release-9 Delivery Key Map: Release 9 Application Portfolio
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="run-scheduled-job-update-tpm-data"
@@ -25258,7 +25225,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="run-scheduled-job-update-tpm-data" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=run-scheduled-job-update-tpm-data&amp;version=washingtondc&amp;pubname=washingtondc-application-portfolio-management">
+                    href="https://docs.DITA Community.com/csh?topicname=run-scheduled-job-update-tpm-data&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Führen Sie eine regelmäßige Aufgabe aus,
                             um TPM-Lebenszyklusdaten zu generieren</navtitle>
@@ -25283,7 +25250,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="eaw-insights" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;77:39"
-                    href="https://docs.DITA Community.com/csh?topicname=eaw-insights&amp;version=washingtondc&amp;pubname=washingtondc-application-portfolio-management">
+                    href="https://docs.DITA Community.com/csh?topicname=eaw-insights&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Einblicke in Ihr Portfolio
                             anzeigen</navtitle>
@@ -25307,7 +25274,7 @@
                     format="html" keys="eaw-rationalize-business-applications"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:11;135:39"
-                    href="https://docs.DITA Community.com/csh?topicname=eaw-rationalize-business-applications&amp;version=washingtondc&amp;pubname=washingtondc-application-portfolio-management">
+                    href="https://docs.DITA Community.com/csh?topicname=eaw-rationalize-business-applications&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Rationalisierung von
                             Geschäftsanwendungen</navtitle>
@@ -25331,7 +25298,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="portfolio-list-view" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;192:39"
-                    href="https://docs.DITA Community.com/csh?topicname=portfolio-list-view&amp;version=washingtondc&amp;pubname=washingtondc-application-portfolio-management">
+                    href="https://docs.DITA Community.com/csh?topicname=portfolio-list-view&amp;version=release-9&amp;pubname=release-9-application-portfolio-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Listenansicht „Portfolio“.</navtitle>
                         <?ditaot gentext?>
@@ -25349,20 +25316,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-esgv-environmental-social-governance.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-esgv-environmental-social-governance.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-esgv" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-esgv" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-esgv-environmental-social-governance.ditamap"
-            keyscope="bundle-esgv" xtrc="mapref:5;73:58"
+            keyscope="publication-esgv" xtrc="mapref:5;73:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-esgv-environmental-social-governance.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 Environmental, Social, and
+                    >release-9 Delivery Key Map: Release 9 Environmental, Social, and
                     Governance Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="configure-sustainable-it" class="+ map/topicref map-group/topicgroup "
@@ -25371,7 +25336,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="configure-sustainable-it" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=configure-sustainable-it&amp;version=washingtondc&amp;pubname=washingtondc-environmental-social-governance">
+                    href="https://docs.DITA Community.com/csh?topicname=configure-sustainable-it&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Nachhaltige IT konfigurieren</navtitle>
                         <?ditaot gentext?>
@@ -25395,7 +25360,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="activate-the-sustainable-it-plugin" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;93:39"
-                    href="https://docs.DITA Community.com/csh?topicname=activate-the-sustainable-it-plugin&amp;version=washingtondc&amp;pubname=washingtondc-environmental-social-governance">
+                    href="https://docs.DITA Community.com/csh?topicname=activate-the-sustainable-it-plugin&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Nachhaltige IT Plugin
                             aktivieren</navtitle>
@@ -25423,7 +25388,7 @@
                     format="html" keys="filter-sustainable-it-metric-definitions"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:11;166:39"
-                    href="https://docs.DITA Community.com/csh?topicname=filter-sustainable-it-metric-definitions&amp;version=washingtondc&amp;pubname=washingtondc-environmental-social-governance">
+                    href="https://docs.DITA Community.com/csh?topicname=filter-sustainable-it-metric-definitions&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Filtern Sie Nachhaltige IT
                             Metrikdefinitionen</navtitle>
@@ -25451,7 +25416,7 @@
                     format="html" keys="create-a-new-entity-for-data-centers"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:16;234:39"
-                    href="https://docs.DITA Community.com/csh?topicname=create-a-new-entity-for-data-centers&amp;version=washingtondc&amp;pubname=washingtondc-environmental-social-governance">
+                    href="https://docs.DITA Community.com/csh?topicname=create-a-new-entity-for-data-centers&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Erstellen Sie neue Entitäten für
                             Rechenzentren</navtitle>
@@ -25475,7 +25440,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="set-up-entities-for-sustainable-it" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;292:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-entities-for-sustainable-it&amp;version=washingtondc&amp;pubname=washingtondc-environmental-social-governance">
+                    href="https://docs.DITA Community.com/csh?topicname=set-up-entities-for-sustainable-it&amp;version=release-9&amp;pubname=release-9-environmental-social-governance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Richten Sie Entitäten für Nachhaltige IT
                             Rechenzentren manuell ein</navtitle>
@@ -25499,20 +25464,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-grc-governance-risk-compliance.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-grc-governance-risk-compliance.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-grc" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-grc" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-grc-governance-risk-compliance.ditamap"
-            keyscope="bundle-grc" xtrc="mapref:6;77:58"
+            keyscope="publication-grc" xtrc="mapref:6;77:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-grc-governance-risk-compliance.ditamap"
-                    >washingtondc Delivery Key Map: Release 9: Governance, Risiko und
+                    >release-9 Delivery Key Map: Release 9: Governance, Risiko und
                     Compliance</submap-title>
             </submap-topicmeta>
             <topicgroup base="specify-approvers-for-proj-risks"
@@ -25521,7 +25484,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="specify-approvers-for-proj-risks" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=specify-approvers-for-proj-risks&amp;version=washingtondc&amp;pubname=washingtondc-governance-risk-compliance">
+                    href="https://docs.DITA Community.com/csh?topicname=specify-approvers-for-proj-risks&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Konfigurieren Sie die Integration
                             Projekt-Portfoliomanagement und Advanced Risk .</navtitle>
@@ -25552,7 +25515,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="assessing-proj-risk-by-projmanager" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;98:39"
-                    href="https://docs.DITA Community.com/csh?topicname=assessing-proj-risk-by-projmanager&amp;version=washingtondc&amp;pubname=washingtondc-governance-risk-compliance">
+                    href="https://docs.DITA Community.com/csh?topicname=assessing-proj-risk-by-projmanager&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Bewerten Sie Projektrisiken mit der
                             erweiterten Risikobewertung</navtitle>
@@ -25577,7 +25540,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="Elevating-a-risk" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;155:39"
-                    href="https://docs.DITA Community.com/csh?topicname=Elevating-a-risk&amp;version=washingtondc&amp;pubname=washingtondc-governance-risk-compliance">
+                    href="https://docs.DITA Community.com/csh?topicname=Elevating-a-risk&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Erhöhen Sie ein Projektrisiko auf das
                             Unternehmensrisiko</navtitle>
@@ -25600,7 +25563,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="project-risk-dashboard" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;213:39"
-                    href="https://docs.DITA Community.com/csh?topicname=project-risk-dashboard&amp;version=washingtondc&amp;pubname=washingtondc-governance-risk-compliance">
+                    href="https://docs.DITA Community.com/csh?topicname=project-risk-dashboard&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "
                             >Dashboard„Projektrisikoübersicht“.</navtitle>
@@ -25624,7 +25587,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="tprm-configuring" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;270:39"
-                    href="https://docs.DITA Community.com/csh?topicname=tprm-configuring&amp;version=washingtondc&amp;pubname=washingtondc-governance-risk-compliance">
+                    href="https://docs.DITA Community.com/csh?topicname=tprm-configuring&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Risikomanagement von Drittparteien
                             konfigurieren</navtitle>
@@ -25650,7 +25613,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="tprm-ws-request-dd-for-engagement" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:26;343:39"
-                    href="https://docs.DITA Community.com/csh?topicname=tprm-ws-request-dd-for-engagement&amp;version=washingtondc&amp;pubname=washingtondc-governance-risk-compliance">
+                    href="https://docs.DITA Community.com/csh?topicname=tprm-ws-request-dd-for-engagement&amp;version=release-9&amp;pubname=release-9-governance-risk-compliance">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Due Diligence für eine
                             Drittpartei-Interaktion anfordern</navtitle>
@@ -25671,20 +25634,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-itbm-it-business-management.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-itbm-it-business-management.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-itbm" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-itbm" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-itbm-it-business-management.ditamap"
-            keyscope="bundle-itbm" xtrc="mapref:7;81:58"
+            keyscope="publication-itbm" xtrc="mapref:7;81:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-itbm-it-business-management.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 Strategic Portfolio
+                    >release-9 Delivery Key Map: Release 9 Strategic Portfolio
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="add-risks-for-project" class="+ map/topicref map-group/topicgroup "
@@ -25693,7 +25654,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="add-risks-for-project" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=add-risks-for-project&amp;version=washingtondc&amp;pubname=washingtondc-it-business-management">
+                    href="https://docs.DITA Community.com/csh?topicname=add-risks-for-project&amp;version=release-9&amp;pubname=release-9-it-business-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Risiken für Projekte
                             hinzufügen</navtitle>
@@ -25712,20 +25673,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-itom-it-operations-management.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-itom-it-operations-management.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-itom" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-itom" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-itom-it-operations-management.ditamap"
-            keyscope="bundle-itom" xtrc="mapref:8;85:58"
+            keyscope="publication-itom" xtrc="mapref:8;85:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-itom-it-operations-management.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 IT Operations
+                    >release-9 Delivery Key Map: Release 9 IT Operations
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="sow-setup-itom" class="+ map/topicref map-group/topicgroup "
@@ -25734,7 +25693,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="sow-setup-itom" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;82:39"
-                    href="https://docs.DITA Community.com/csh?topicname=sow-setup-itom&amp;version=washingtondc&amp;pubname=washingtondc-it-operations-management">
+                    href="https://docs.DITA Community.com/csh?topicname=sow-setup-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Einrichten von Service
                             Operations-Arbeitsbereich für ITOM </navtitle>
@@ -25764,7 +25723,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="install-sow-itom-apps" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;165:39"
-                    href="https://docs.DITA Community.com/csh?topicname=install-sow-itom-apps&amp;version=washingtondc&amp;pubname=washingtondc-it-operations-management">
+                    href="https://docs.DITA Community.com/csh?topicname=install-sow-itom-apps&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Installieren Sie Service
                             Operations-Arbeitsbereich für die Anwendungen ITOM .</navtitle>
@@ -25793,7 +25752,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="configure-alert-metrics-itom" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;243:39"
-                    href="https://docs.DITA Community.com/csh?topicname=configure-alert-metrics-itom&amp;version=washingtondc&amp;pubname=washingtondc-it-operations-management">
+                    href="https://docs.DITA Community.com/csh?topicname=configure-alert-metrics-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Warnungsmetriken
                             konfigurieren</navtitle>
@@ -25817,7 +25776,7 @@
                     format="html" keys="set-up-recommendation-framework-sow-itom"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:16;301:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-recommendation-framework-sow-itom&amp;version=washingtondc&amp;pubname=washingtondc-it-operations-management">
+                    href="https://docs.DITA Community.com/csh?topicname=set-up-recommendation-framework-sow-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Empfehlungs-Framework in Service
                             Operations-Arbeitsbereich für ITOM konfigurieren</navtitle>
@@ -25850,7 +25809,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="configure-inbox-sow-itom" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;394:39"
-                    href="https://docs.DITA Community.com/csh?topicname=configure-inbox-sow-itom&amp;version=washingtondc&amp;pubname=washingtondc-it-operations-management">
+                    href="https://docs.DITA Community.com/csh?topicname=configure-inbox-sow-itom&amp;version=release-9&amp;pubname=release-9-it-operations-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Posteingang in Service
                             Operations-Arbeitsbereich für ITOM konfigurieren</navtitle>
@@ -25876,20 +25835,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-itsm-it-service-management.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-itsm-it-service-management.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-itsm" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-itsm" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-itsm-it-service-management.ditamap"
-            keyscope="bundle-itsm" xtrc="mapref:9;89:58"
+            keyscope="publication-itsm" xtrc="mapref:9;89:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-itsm-it-service-management.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 IT Service
+                    >release-9 Delivery Key Map: Release 9 IT Service
                     Management</submap-title>
             </submap-topicmeta>
             <topicgroup base="sow-setup" class="+ map/topicref map-group/topicgroup "
@@ -25898,7 +25855,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="sow-setup" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;19:39"
-                    href="https://docs.DITA Community.com/csh?topicname=sow-setup&amp;version=washingtondc&amp;pubname=washingtondc-it-service-management">
+                    href="https://docs.DITA Community.com/csh?topicname=sow-setup&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Service Operations-Arbeitsbereich für
                             ITSM einrichten</navtitle>
@@ -25924,7 +25881,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="install-sow" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;91:39"
-                    href="https://docs.DITA Community.com/csh?topicname=install-sow&amp;version=washingtondc&amp;pubname=washingtondc-it-service-management">
+                    href="https://docs.DITA Community.com/csh?topicname=install-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Service Operations-Arbeitsbereich ITSM
                             Applications installieren</navtitle>
@@ -25950,7 +25907,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="set-up-investigate" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;163:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-investigate&amp;version=washingtondc&amp;pubname=washingtondc-it-service-management">
+                    href="https://docs.DITA Community.com/csh?topicname=set-up-investigate&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Untersuchungs-Frameworks in Service
                             Operations-Arbeitsbereich einrichten</navtitle>
@@ -25977,7 +25934,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="set-up-recommendation-framework-sow" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;231:39"
-                    href="https://docs.DITA Community.com/csh?topicname=set-up-recommendation-framework-sow&amp;version=washingtondc&amp;pubname=washingtondc-it-service-management">
+                    href="https://docs.DITA Community.com/csh?topicname=set-up-recommendation-framework-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Empfehlungs-Framework in Service
                             Operations-Arbeitsbereich konfigurieren</navtitle>
@@ -26007,7 +25964,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="create-list-sow" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;313:39"
-                    href="https://docs.DITA Community.com/csh?topicname=create-list-sow&amp;version=washingtondc&amp;pubname=washingtondc-it-service-management">
+                    href="https://docs.DITA Community.com/csh?topicname=create-list-sow&amp;version=release-9&amp;pubname=release-9-it-service-management">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Gefilterte Liste in Service
                             Operations-Arbeitsbereich konfigurieren</navtitle>
@@ -26030,20 +25987,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-par-paas-performance-analytics-and-reporting.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-par-paas-performance-analytics-and-reporting.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-par" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-par" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-par-paas-performance-analytics-and-reporting.ditamap"
-            keyscope="bundle-par" xtrc="mapref:10;93:58"
+            keyscope="publication-par" xtrc="mapref:10;93:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-par-paas-performance-analytics-and-reporting.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 Platform Analytics</submap-title>
+                    >release-9 Delivery Key Map: Release 9 Platform Analytics</submap-title>
             </submap-topicmeta>
             <topicgroup base="self-diagnostics" class="+ map/topicref map-group/topicgroup "
                 xtrc="topicgroup:1;11:85"
@@ -26051,7 +26006,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="self-diagnostics" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;19:39"
-                    href="https://docs.DITA Community.com/csh?topicname=self-diagnostics&amp;version=washingtondc&amp;pubname=washingtondc-now-intelligence">
+                    href="https://docs.DITA Community.com/csh?topicname=self-diagnostics&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Performance Analytics –
                             Diagnose</navtitle>
@@ -26074,7 +26029,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="update-pa-scripts" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;76:39"
-                    href="https://docs.DITA Community.com/csh?topicname=update-pa-scripts&amp;version=washingtondc&amp;pubname=washingtondc-now-intelligence">
+                    href="https://docs.DITA Community.com/csh?topicname=update-pa-scripts&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Performance Analytics -Skripts
                             aktualisieren</navtitle>
@@ -26100,7 +26055,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="review-breakdown-sources" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;149:39"
-                    href="https://docs.DITA Community.com/csh?topicname=review-breakdown-sources&amp;version=washingtondc&amp;pubname=washingtondc-now-intelligence">
+                    href="https://docs.DITA Community.com/csh?topicname=review-breakdown-sources&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Aufgliederungsquellen
                             überprüfen</navtitle>
@@ -26123,7 +26078,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="historical-data-nowintel-solution" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;207:39"
-                    href="https://docs.DITA Community.com/csh?topicname=historical-data-nowintel-solution&amp;version=washingtondc&amp;pubname=washingtondc-now-intelligence">
+                    href="https://docs.DITA Community.com/csh?topicname=historical-data-nowintel-solution&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Führen Sie eine Verlaufsdatenerfassung
                             für eine DITAComm Intelligence -Lösung aus</navtitle>
@@ -26151,7 +26106,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="schedule-job-nowintel-solution" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:21;275:39"
-                    href="https://docs.DITA Community.com/csh?topicname=schedule-job-nowintel-solution&amp;version=washingtondc&amp;pubname=washingtondc-now-intelligence">
+                    href="https://docs.DITA Community.com/csh?topicname=schedule-job-nowintel-solution&amp;version=release-9&amp;pubname=release-9-now-intelligence">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Planen Sie die Datenerfassung für eine
                             DITAComm Intelligence -Lösung</navtitle>
@@ -26176,20 +26131,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-platai-intelligent-experiences.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-platai-intelligent-experiences.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-platai" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-platai" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-platai-intelligent-experiences.ditamap"
-            keyscope="bundle-platai" xtrc="mapref:11;97:58"
+            keyscope="publication-platai" xtrc="mapref:11;97:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-platai-intelligent-experiences.ditamap"
-                    >washingtondc Delivery Key Map: Release 9 KI aktivieren</submap-title>
+                    >release-9 Delivery Key Map: Release 9 KI aktivieren</submap-title>
             </submap-topicmeta>
             <topicgroup base="platform-now-assist-landing"
                 class="+ map/topicref map-group/topicgroup " xtrc="topicgroup:1;12:61"
@@ -26197,7 +26150,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="platform-now-assist-landing" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;20:39"
-                    href="https://docs.DITA Community.com/csh?topicname=platform-now-assist-landing&amp;version=washingtondc&amp;pubname=washingtondc-intelligent-experiences">
+                    href="https://docs.DITA Community.com/csh?topicname=platform-now-assist-landing&amp;version=release-9&amp;pubname=release-9-intelligent-experiences">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> DITAComm Assist </navtitle>
                         <?ditaot gentext?>
@@ -26223,7 +26176,7 @@
                     format="html" keys="opt-out-of-data-sharing-for-now-assist"
                     otherprops="not-rtp-rn" processing-role="resource-only" scope="external"
                     xtrc="keydef:6;98:39"
-                    href="https://docs.DITA Community.com/csh?topicname=opt-out-of-data-sharing-for-now-assist&amp;version=washingtondc&amp;pubname=washingtondc-intelligent-experiences">
+                    href="https://docs.DITA Community.com/csh?topicname=opt-out-of-data-sharing-for-now-assist&amp;version=release-9&amp;pubname=release-9-intelligent-experiences">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Deaktivieren Sie die Datenfreigabe für
                             DITAComm Assist </navtitle>
@@ -26249,20 +26202,18 @@
         </submap>
         <submap class="+ map/topicref mapgroup-d/topicgroup ditaot-d/submap "
             dita-ot:orig-class="+ map/topicref mapgroup-d/mapref " dita-ot:orig-format="ditamap"
-            dita-ot:orig-href="xbl-maps/bundle-stpop-source-to-pay-operations.ditamap"
+            dita-ot:orig-href="xbl-maps/publication-stpop-source-to-pay-operations.ditamap"
             dita-ot:submap-DITAArchVersion="1.3" dita-ot:submap-cascade="merge"
             dita-ot:submap-class="- map/map "
             dita-ot:submap-domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-            dita-ot:submap-keyscope="bundle-stpop" dita-ot:submap-lang="de-DE"
+            dita-ot:submap-keyscope="publication-stpop" dita-ot:submap-lang="de-DE"
             dita-ot:submap-specializations="@props/deliveryTarget" dita-ot:submap-xtrc="map:1;9:693"
-            dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-stpop-source-to-pay-operations.ditamap"
-            keyscope="bundle-stpop" xtrc="mapref:12;101:58"
+            keyscope="publication-stpop" xtrc="mapref:12;101:58"
             processing-role="resource-only">
             <submap-topicmeta class="+ map/topicmeta ditaot-d/submap-topicmeta ">
                 <submap-title class="+ topic/navtitle ditaot-d/submap-title "
                     dita-ot:submap-class="- topic/title " dita-ot:submap-xtrc="title:1;10:34"
-                    dita-ot:submap-xtrf="file:/Users/eliot.kimber/git/xcodefreeze/doc/source/xbl-maps/bundle-stpop-source-to-pay-operations.ditamap"
-                    >washingtondc Delivery Key Map: Release 9
+                    >release-9 Delivery Key Map: Release 9
                     Source-to-Pay-Vorgänge</submap-title>
             </submap-topicmeta>
             <topicgroup base="install-supp-mgmt" class="+ map/topicref map-group/topicgroup "
@@ -26271,7 +26222,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="install-supp-mgmt" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:1;19:39"
-                    href="https://docs.DITA Community.com/csh?topicname=install-supp-mgmt&amp;version=washingtondc&amp;pubname=washingtondc-source-to-pay-operations">
+                    href="https://docs.DITA Community.com/csh?topicname=install-supp-mgmt&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle "> Supplier Lifecycle Operations
                             installieren</navtitle>
@@ -26297,7 +26248,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="new-supplier" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:6;96:39"
-                    href="https://docs.DITA Community.com/csh?topicname=new-supplier&amp;version=washingtondc&amp;pubname=washingtondc-source-to-pay-operations">
+                    href="https://docs.DITA Community.com/csh?topicname=new-supplier&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Erstellen Sie einen Lieferanten im
                             Source-to-Pay-Arbeitsbereich </navtitle>
@@ -26325,7 +26276,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="use-playbooks-onboard-supp" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:11;174:39"
-                    href="https://docs.DITA Community.com/csh?topicname=use-playbooks-onboard-supp&amp;version=washingtondc&amp;pubname=washingtondc-source-to-pay-operations">
+                    href="https://docs.DITA Community.com/csh?topicname=use-playbooks-onboard-supp&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Verwenden des
                             Lieferanten-Onboarding-Playbooks für das Onboarding von
@@ -26351,7 +26302,7 @@
                 <keydef class="+ map/topicref mapgroup-d/keydef " deliveryTarget="suite-prod"
                     format="html" keys="complete-risk-assessments" otherprops="not-rtp-rn"
                     processing-role="resource-only" scope="external" xtrc="keydef:16;232:39"
-                    href="https://docs.DITA Community.com/csh?topicname=complete-risk-assessments&amp;version=washingtondc&amp;pubname=washingtondc-source-to-pay-operations">
+                    href="https://docs.DITA Community.com/csh?topicname=complete-risk-assessments&amp;version=release-9&amp;pubname=release-9-source-to-pay-operations">
                     <topicmeta class="- map/topicmeta ">
                         <navtitle class="- topic/navtitle ">Schließen Sie eine Risikobewertung im ab
                             Lieferantenportal </navtitle>
@@ -26375,7 +26326,7 @@
             </topicgroup>
         </submap>
     </topichead>
-    <reltable class="- map/reltable " keyscope="bundle-itom bundle-itom" toc="no"
+    <reltable class="- map/reltable " keyscope="publication-itom publication-itom" toc="no"
         xtrc="reltable:1;11:47">
         <relheader class="- map/relheader " xtrc="relheader:1;12:43">
             <relcolspec class="- map/relcolspec " linking="sourceonly" toc="no"
@@ -26403,7 +26354,7 @@
                 </topicref>
             </relcell>
             <relcell class="- map/relcell " toc="no" xtrc="relcell:2;28:51">
-                <topicref class="- map/topicref " keyref="bundle-platcap.application-services"
+                <topicref class="- map/topicref " keyref="publication-platcap.application-services"
                     xtrc="topicref:6;29:93"
                     linking="targetonly" toc="no"/>
             </relcell>
@@ -26437,7 +26388,7 @@
             </relcell>
             <relcell class="- map/relcell " toc="no" xtrc="relcell:8;52:51">
                 <topicref class="- map/topicref "
-                    keyref="bundle-platcap.t_CreateModifyNGBSMMapIndicators"
+                    keyref="publication-platcap.t_CreateModifyNGBSMMapIndicators"
                     xtrc="topicref:12;54:48"
                     linking="targetonly" toc="no"/>
             </relcell>

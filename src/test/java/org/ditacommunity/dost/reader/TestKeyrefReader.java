@@ -82,6 +82,13 @@ public class TestKeyrefReader {
 		assertTrue("@xtrc value \"" + xtrcValue + "\" doesn't match expected \"" + expectedXtrc + "\"", expectedXtrc.equals(xtrcValue));
 		assertTrue("@keys value \"" + keysValue + "\" doesn't match expected \"" + keyName + "\"", keyName.equals(keysValue));
 		
+		// Get list of child scopes:
+		
+		List<KeyScope> childScopes = rootScope.getChildScopes();
+		assertNotNull("Expected a list of child scopes", childScopes);
+		expectedCount = 19;
+		int candCount = childScopes.size();
+		assertTrue("Expected " + expectedCount + " scopes, got " + candCount, expectedCount == candCount);
 		
 		// Get scopes by scope name
 		
@@ -92,7 +99,7 @@ public class TestKeyrefReader {
 		assertTrue("Expected " + expectedCount + " scopes for scope name \"" + expectedScopeName + "\", got " + imageScopes.size(), imageScopes.size() == expectedCount);
 		KeyScope imageScope = imageScopes.get(0);
 		expectedCount = 728;
-		int candCount = imageScope.getKeyDefinitions().size();
+		candCount = imageScope.getKeyDefinitions().size();
 		assertTrue("Expected " + expectedCount + " keydefs, got " + candCount, expectedCount == candCount );
 
 	}
