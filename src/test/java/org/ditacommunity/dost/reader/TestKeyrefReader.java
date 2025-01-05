@@ -90,6 +90,10 @@ public class TestKeyrefReader {
 		assertNotNull("Expected a list for scope name \"" + expectedScopeName + "\"", imageScopes);
 		expectedCount = 2;
 		assertTrue("Expected " + expectedCount + " scopes for scope name \"" + expectedScopeName + "\", got " + imageScopes.size(), imageScopes.size() == expectedCount);
+		KeyScope imageScope = imageScopes.get(0);
+		expectedCount = 728;
+		int candCount = imageScope.getKeyDefinitions().size();
+		assertTrue("Expected " + expectedCount + " keydefs, got " + candCount, expectedCount == candCount );
 
 	}
 
