@@ -173,6 +173,21 @@ public class KeyDef {
 	}
 
 	/**
+	 * Prepend the new key definers to the start of the list of key definers,
+	 * making them higher priority.
+	 * @param newKeyDefiners New key definers to prepend to the definer list
+	 */
+	public void prependKeyDefiners(List<XdmNode> newKeyDefiners) {
+		List<XdmNode> newList = new ArrayList<XdmNode>(newKeyDefiners);
+		for (XdmNode definer : this.keyDefiners) {
+			if (!newKeyDefiners.contains(definer)) {
+				newList.add(definer);
+			}
+		}
+		this.keyDefiners = newList;
+	}
+
+	/**
 	 * Get the HREF URI for the effective key definition.
 	 * @return URI or null if there is no href.
 	 */

@@ -228,4 +228,19 @@ public class KeyScope {
  		return result;
 	}
 
+	/**
+	 * Add the keydef to the key space, prepending any key definers to an existing key.
+	 * The prepended key definers will have higher precedence.
+	 * @param keydef Key definition to prepend
+	 */
+	public void prependKeyDef(KeyDef keydef) {
+		KeyDef existingKeyDef = this.getKeyDefinition(keydef.getKeyName());
+		if (existingKeyDef == null) {
+			this.keyDefinitions.put(keydef.getKeyName(), keydef);
+		} else {
+			existingKeyDef.prependKeyDefiners(keydef.getKeyDefiners());
+		}
+		
+	}
+
 }

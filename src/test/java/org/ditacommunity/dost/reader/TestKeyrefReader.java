@@ -98,7 +98,7 @@ public class TestKeyrefReader {
 		expectedCount = 2;
 		assertTrue("Expected " + expectedCount + " scopes for scope name \"" + expectedScopeName + "\", got " + imageScopes.size(), imageScopes.size() == expectedCount);
 		KeyScope imageScope = imageScopes.get(0);
-		expectedCount = 728;
+		expectedCount = 3348;
 		candCount = imageScope.getKeyDefinitions().size();
 		assertTrue("Expected " + expectedCount + " keydefs, got " + candCount, expectedCount == candCount );
 		
@@ -117,6 +117,10 @@ public class TestKeyrefReader {
 		
 		candKeydef = imageScope.getKeyDefinition(expectedKeyname);				
 		assertNotNull("Expected keydef for key \"" + expectedKeyname + "\" in imageKeyscope", candKeydef);
+		
+		expectedCount = 1;
+		int resultCount = candKeydef.getKeyDefiners().size();
+		assertTrue("Expected " + expectedCount + " key definers, found " + resultCount, expectedCount == resultCount);
 
 	}
 

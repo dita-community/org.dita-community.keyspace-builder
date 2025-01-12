@@ -111,8 +111,7 @@ public final class KeyrefReader implements AbstractReader {
 	    rootScope = null;
 	    final KeyScope keyScope = readScopes(root);
 	    final KeyScope keyScopeWithChildren = pullUpChildKeydefs(keyScope);
-//	    // TODO: determine effective key definitions here
-//	    final KeyScope keyScopeWithParents = inheritParentKeys(keyScopeWithChildren);
+	    final KeyScope keyScopeWithParents = pushDownParentKeydefs(keyScopeWithChildren);
 //	    rootScope = resolveIntermediate(keyScopeWithParents);
 	    rootScope = keyScope;
 	  }
@@ -138,6 +137,25 @@ public final class KeyrefReader implements AbstractReader {
 			}
 		}
 
+		return keyScope;
+	}
+
+	/**
+	 * Push keydefs from parents to children, prepending any key-definers to existing keys
+	 * with the same name.
+	 * @param keyScope Scope whose children will get keydefs pushed to it.
+	 * @return Updated key scope.
+	 */
+	private KeyScope pushDownParentKeydefs(KeyScope keyScope) {
+		Map<String, KeyDef> keydefs = keyScope.getKeyDefinitions();
+		for (KeyScope child : keyScope.getChildScopes()) {
+			for (String keyName : keydefs.keySet()) {
+				KeyDef keydef = keydefs.get(keyName);
+				child.prependKeyDef(keydef);
+			}
+			pushDownParentKeydefs(child);
+			
+		}
 		return keyScope;
 	}
 
