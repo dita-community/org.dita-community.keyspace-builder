@@ -29,6 +29,22 @@ public class KeyDef {
 		this.keyName = key;
 	}
 
+	/**
+	 * Construct a new KeyDef using the key definers in the 
+	 * input keydef, prepending the qualifier to the key name
+	 * of the input keydef, separated by ".".
+	 * @param qualifier Qualifier to prepend to the key name (separated by ".").
+	 * @param keydef Keydef to get the key definers from.
+	 */
+	public KeyDef(String qualifier, KeyDef keydef) {
+		this.keyName = qualifier + "." + keydef.getKeyName();
+		for (XdmNode keyDefiner : keydef.getKeyDefiners()) {
+			if (!this.keyDefiners.contains(keyDefiner)) {
+				this.keyDefiners.add(keyDefiner);
+			}
+		}
+	}
+
 	@Override
 	public String toString() {
 		final StringBuilder buf = new StringBuilder().append(keyName).append(EQUAL);

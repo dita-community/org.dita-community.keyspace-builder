@@ -8,6 +8,7 @@ import java.net.URI;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 
@@ -109,12 +110,36 @@ public final class KeyrefReader implements AbstractReader {
 	    currentFile = filename;
 	    rootScope = null;
 	    final KeyScope keyScope = readScopes(root);
-//	    final KeyScope keyScopeWithChildren = cascadeChildKeys(keyScope);
+	    final KeyScope keyScopeWithChildren = pullUpChildKeydefs(keyScope);
 //	    // TODO: determine effective key definitions here
 //	    final KeyScope keyScopeWithParents = inheritParentKeys(keyScopeWithChildren);
 //	    rootScope = resolveIntermediate(keyScopeWithParents);
 	    rootScope = keyScope;
 	  }
+	  
+
+	/**
+	 * Pull keydefs from child scopes in this scope, prepending the child scope's 
+	 * key names.
+	 * @param keyScope Key scope to child keydefs into.
+	 * @return The updated key scope
+	 */
+	private KeyScope pullUpChildKeydefs(KeyScope keyScope) {
+		for (KeyScope child : keyScope.getChildScopes()) {
+			KeyScope childPulled = pullUpChildKeydefs(child);
+			Set<String> scopeNames = childPulled.getScopeNames();
+			Map<String, KeyDef> keydefs = childPulled.getKeyDefinitions();
+			for (String keyName : keydefs.keySet()) {
+				KeyDef keydef = keydefs.get(keyName);
+				for (String scopeName : scopeNames) {
+					KeyDef newKeyDef = new KeyDef(scopeName, keydef);
+					keyScope.appendKeyDef(newKeyDef);
+				}
+			}
+		}
+
+		return keyScope;
+	}
 
 	/**
 	 * Construct the initial key scopes from the input root map.

@@ -56,7 +56,7 @@ public class TestKeyrefReader {
 		Map<String, KeyDef> keydefs = rootScope.getKeyDefinitions();
 		assertNotNull("Expected a key definitions map", keydefs);
 		assertTrue("Expected at least one key definition", keydefs.keySet().size() > 0);
-		int expectedCount = 5; // Keys in the root scope
+		int expectedCount = 2620; // Keys in the root scope
 		assertTrue("Expected " + expectedCount + ", got " + keydefs.size(), expectedCount == keydefs.size());
 		
 		Set<String> scopeNames = rootScope.getScopeNames();
