@@ -102,6 +102,8 @@ public class TestKeyrefReader {
 		candCount = imageScope.getKeyDefinitions().size();
 		assertTrue("Expected " + expectedCount + " keydefs, got " + candCount, expectedCount == candCount );
 		
+		// Test result of pull-up phase: Keys from "image." keyspace should be in root key space
+		// with "image." qualifier prepended:
 		String expectedKeyname = "bus-1-1-meetings";		
 		KeyDef candKeydef = imageScope.getKeyDefinition(expectedKeyname);
 		assertNotNull("Expected keydef for key \"" + expectedKeyname + "\" in imageKeyscope", candKeydef);
@@ -109,6 +111,12 @@ public class TestKeyrefReader {
 		expectedKeyname = "image." + expectedKeyname;
 		candKeydef = rootScope.getKeyDefinition(expectedKeyname);
 		assertNotNull("Expected keydef for key \"" + expectedKeyname + "\" in rootKeyscope", candKeydef);
+		
+		// Test result of push-down phase: Scope-qualified keys pulled up from child scope should now also be
+		// in the child scope:
+		
+		candKeydef = imageScope.getKeyDefinition(expectedKeyname);				
+		assertNotNull("Expected keydef for key \"" + expectedKeyname + "\" in imageKeyscope", candKeydef);
 
 	}
 
