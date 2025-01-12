@@ -101,6 +101,14 @@ public class TestKeyrefReader {
 		expectedCount = 728;
 		candCount = imageScope.getKeyDefinitions().size();
 		assertTrue("Expected " + expectedCount + " keydefs, got " + candCount, expectedCount == candCount );
+		
+		String expectedKeyname = "bus-1-1-meetings";		
+		KeyDef candKeydef = imageScope.getKeyDefinition(expectedKeyname);
+		assertNotNull("Expected keydef for key \"" + expectedKeyname + "\" in imageKeyscope", candKeydef);
+		
+		expectedKeyname = "image." + expectedKeyname;
+		candKeydef = rootScope.getKeyDefinition(expectedKeyname);
+		assertNotNull("Expected keydef for key \"" + expectedKeyname + "\" in rootKeyscope", candKeydef);
 
 	}
 
