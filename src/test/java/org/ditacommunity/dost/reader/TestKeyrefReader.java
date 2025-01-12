@@ -26,7 +26,7 @@ public class TestKeyrefReader {
 	final XMLUtils xmlUtils = new XMLUtils();
 
 	@Test
-	public void test() throws Exception {
+	public void testBasicKeyspaceConstruction() throws Exception {
 		
 	    URI mapUri = getClass().getClassLoader().getResource("org/ditacommunity/dost/resources/small-map/small-map.ditamap").toURI();
 	    // Get the document node for input map.
@@ -123,6 +123,35 @@ public class TestKeyrefReader {
 		assertTrue("Expected " + expectedCount + " key definers, found " + resultCount, expectedCount == resultCount);
 
 	}
+	
+	@Test
+	public void testLargeKeyspaceConstruction() throws Exception {
+	    URI mapUri = getClass().getClassLoader().getResource("org/ditacommunity/dost/resources/big-map/big-map.ditamap").toURI();
+	    // Get the document node for input map.
+	    XdmNode mapNode = getImmutableNode(mapUri);
+	
+	    KeyrefReader reader = new KeyrefReader();
+		reader.setLogger(logger);
+		reader.setXmlUtils(xmlUtils);
+		// Reader the input map to construct the key space:
+		reader.read(mapUri, mapNode);
+		KeyScope rootScope = reader.getKeyDefinition();
+		
+		assertNotNull("Expected a root key scope", rootScope);
+		int rootKeyCount = rootScope.getKeyDefinitions().size();
+		assertTrue("Expected some root key definitions", rootKeyCount > 1000);
+		int imageKeyCount = 0;
+		
+		List<KeyScope> imageScopes = rootScope.getScopesByName("image");
+		assertNotNull("Expected image scopes", imageScopes);
+		
+		for (KeyScope scope : imageScopes) {
+			imageKeyCount += scope.getKeyDefinitions().size();
+		}
+		assertTrue("Expected nnn keys, got " + imageKeyCount, imageKeyCount > 10000);
+		
+	}
+	
 
     DITAOTLogger logger =
     	      new DITAOTLogger() {
