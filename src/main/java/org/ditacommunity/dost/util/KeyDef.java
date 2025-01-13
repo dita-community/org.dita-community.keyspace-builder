@@ -45,6 +45,17 @@ public class KeyDef {
 		}
 	}
 
+	/**
+	 * Create a new key definition, adding its first key-defining element.
+	 * @param keyName The name of the key being defined
+	 * @param keyDefiner The first key definer for the key.
+	 */
+	public KeyDef(String keyName, XdmNode keyDefiner) {
+		this(keyName);
+		this.appendKeyDefiner(keyDefiner);
+
+	}
+
 	@Override
 	public String toString() {
 		final StringBuilder buf = new StringBuilder().append(keyName).append(EQUAL);

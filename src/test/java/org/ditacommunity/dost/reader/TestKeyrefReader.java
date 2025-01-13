@@ -3,27 +3,21 @@ package org.ditacommunity.dost.reader;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-import java.io.IOException;
 import java.net.URI;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.xml.transform.stream.StreamSource;
-
 import org.dita.dost.log.DITAOTLogger;
-import org.dita.dost.util.XMLUtils;
+import org.ditacommunity.dost.KeyspaceTester;
 import org.ditacommunity.dost.util.KeyDef;
 import org.ditacommunity.dost.util.KeyScope;
 import org.junit.Test;
 import org.slf4j.Marker;
 
-import net.sf.saxon.s9api.SaxonApiException;
 import net.sf.saxon.s9api.XdmNode;
 
-public class TestKeyrefReader {
-
-	final XMLUtils xmlUtils = new XMLUtils();
+public class TestKeyrefReader extends KeyspaceTester {
 
 	@Test
 	public void testBasicKeyspaceConstruction() throws Exception {
@@ -522,20 +516,6 @@ public class TestKeyrefReader {
   					
   				}
   	
-    };
-
-	/**
-	 * Copy of method from StreamStore for parsing a document to a node.
-	 * @param path
-	 * @return
-	 * @throws IOException
-	 */
-	public XdmNode getImmutableNode(final URI path) throws IOException {
-	    try {
-	      return xmlUtils.getProcessor().newDocumentBuilder().build(new StreamSource(path.toString()));
-	    } catch (SaxonApiException e) {
-	      throw new IOException(e);
-	    }
-	};
+    };;
 
 }
